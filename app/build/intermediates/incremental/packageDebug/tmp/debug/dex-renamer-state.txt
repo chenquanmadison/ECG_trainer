@@ -1,4 +1,4 @@
-#Fri Aug 23 06:36:59 CDT 2019
+#Fri Aug 23 07:02:59 CDT 2019
 base.0=/Users/Quan/Desktop/android project/ECGtrainer/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
