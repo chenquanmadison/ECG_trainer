@@ -1,4 +1,4 @@
-ECG trainer Code
+ECG Trainer
 =====================================
 
 
