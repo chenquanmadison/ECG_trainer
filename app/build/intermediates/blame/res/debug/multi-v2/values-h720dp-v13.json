@@ -4,7 +4,7 @@
             "outputFile": "/Users/Quan/Desktop/android project/ECGtrainer/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/Quan/.gradle/caches/transforms-2/files-2.1/0384a43e561af1a178cc159abc790743/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/Users/Quan/.gradle/caches/transforms-2/files-2.1/39ea2b43f92c50c13037236e46b46954/appcompat-v7-25.4.0/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
