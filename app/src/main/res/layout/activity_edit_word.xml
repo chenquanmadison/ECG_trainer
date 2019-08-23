@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Name" />
+
+
+
+                <EditText
+                    android:id="@+id/edit_word"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="@string/hint_word"
+                    android:inputType="text"
+                    android:imeOptions="actionDone"
+
+                    android:padding="@dimen/small_padding"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Rate" />
+
+                <SeekBar
+                    android:id="@+id/seekBarRate"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="300"
+                    android:progress="60" />
+
+                <EditText
+                    android:id="@+id/edit_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="enter here..."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:text="60"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Pamp" />
+
+                <SeekBar
+                    android:id="@+id/seekBarPamp"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="1500"
+                    android:padding="6dp"
+                    android:progress="500" />
+
+                <EditText
+                    android:id="@+id/edit_pamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="enter here..."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+
+                    android:padding="@dimen/small_padding"
+                    android:text="500"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+    <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Qamp" />
+
+        <SeekBar
+            android:id="@+id/seekBarQamp"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:max="2000"
+            android:padding="6dp"
+            android:progress="500" />
+
+        <EditText
+            android:id="@+id/edit_qamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/big_padding"
+            android:layout_marginBottom="@dimen/big_padding"
+            android:fontFamily="sans-serif-light"
+            android:hint="enter here..."
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+
+            android:padding="@dimen/small_padding"
+            android:text="500"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Ramp" />
+
+        <SeekBar
+            android:id="@+id/seekBarRamp"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:max="2000"
+            android:padding="6dp"
+            android:progress="1500" />
+
+        <EditText
+            android:id="@+id/edit_ramp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/big_padding"
+            android:layout_marginBottom="@dimen/big_padding"
+            android:fontFamily="sans-serif-light"
+            android:hint="enter here..."
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+
+            android:padding="@dimen/small_padding"
+            android:text="1500"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Samp" />
+
+        <SeekBar
+            android:id="@+id/seekBarSamp"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:max="2000"
+            android:padding="6dp"
+            android:progress="500" />
+
+        <EditText
+            android:id="@+id/edit_samp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/big_padding"
+            android:layout_marginBottom="@dimen/big_padding"
+            android:fontFamily="sans-serif-light"
+            android:hint="enter here..."
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+
+            android:padding="@dimen/small_padding"
+            android:text="500"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tamp" />
+
+        <SeekBar
+            android:id="@+id/seekBarTamp"
+            style="@style/Widget.AppCompat.SeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:max="2000"
+            android:padding="6dp"
+            android:progress="500" />
+
+        <EditText
+            android:id="@+id/edit_tamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/big_padding"
+            android:layout_marginBottom="@dimen/big_padding"
+            android:fontFamily="sans-serif-light"
+            android:hint="enter here..."
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+
+            android:padding="@dimen/small_padding"
+            android:text="500"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+            <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Pdur" />
+
+                <SeekBar
+                    android:id="@+id/seekBarPdur"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="200"
+                    android:padding="6dp"
+                    android:progress="100" />
+
+                <EditText
+                    android:id="@+id/edit_pdur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="enter here..."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+
+                    android:padding="@dimen/small_padding"
+                    android:text="100"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Qdur" />
+
+                <SeekBar
+                    android:id="@+id/seekBarQdur"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="200"
+                    android:padding="6dp"
+                    android:progress="25" />
+
+                <EditText
+                    android:id="@+id/edit_qdur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="enter here..."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+
+                    android:padding="@dimen/small_padding"
+                    android:text="25"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Rdur" />
+
+                <SeekBar
+                    android:id="@+id/seekBarRdur"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="200"
+                    android:padding="6dp"
+                    android:progress="50" />
+
+                <EditText
+                    android:id="@+id/edit_rdur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="enter here..."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+
+                    android:padding="@dimen/small_padding"
+                    android:text="50"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Sdur" />
+
+                <SeekBar
+                    android:id="@+id/seekBarSdur"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="200"
+                    android:padding="6dp"
+                    android:progress="25" />
+
+                <EditText
+                    android:id="@+id/edit_sdur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="enter here..."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+
+                    android:padding="@dimen/small_padding"
+                    android:text="25"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Tdur" />
+
+                <SeekBar
+                    android:id="@+id/seekBarTdur"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="200"
+                    android:padding="6dp"
+                    android:progress="75" />
+
+                <EditText
+                    android:id="@+id/edit_tdur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="enter here..."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+
+                    android:padding="@dimen/small_padding"
+                    android:text="75"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="STseg" />
+
+                <SeekBar
+                    android:id="@+id/seekBarSTseg"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="500"
+                    android:padding="6dp"
+                    android:progress="50" />
+
+                <EditText
+                    android:id="@+id/edit_stseg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="enter here..."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+
+                    android:padding="@dimen/small_padding"
+                    android:text="50"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="PRseg" />
+
+                <SeekBar
+                    android:id="@+id/seekBarPRseg"
+                    style="@style/Widget.AppCompat.SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:max="500"
+                    android:padding="6dp"
+                    android:progress="20" />
+
+                <EditText
+                    android:id="@+id/edit_prseg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/big_padding"
+                    android:layout_marginBottom="@dimen/big_padding"
+                    android:fontFamily="sans-serif-light"
+                    android:hint="enter here..."
+                    android:imeOptions="actionDone"
+                    android:inputType="numberDecimal"
+                    android:onClick="updateplot"
+                    android:padding="@dimen/small_padding"
+                    android:text="20"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:onClick="returnReply"
+                android:text="@string/button_save"
+                android:textColor="@color/buttonLabel" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_height"
+                android:background="@color/colorAccent" />
+
+            <Button
+                android:id="@+id/button_makecopy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:onClick="returnReply2"
+                android:text="Make a copy"
+                android:textColor="@color/buttonLabel" />
+
+
+
+        </LinearLayout>
+
+
+
+</ScrollView>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:16:1-47:12
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/Quan/.gradle/caches/transforms-2/files-2.1/f4b2cf9e7dfd7d60d3580f3a1e9cb33c/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/b0faf7bda7c2f9f1300204b56a8b242d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0384a43e561af1a178cc159abc790743/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7a034d926c3a5a6e460eb2b294c3d8db/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5a35931092e201bd15a1190b611d4485/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/2ee40f2b77e607d874c0c363838b6e56/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/ae49cfc2642f68b97ac6b9aebf63c988/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0d24bea9a5e904d8560293b065622508/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e171a3037bcc3565f6b539a07173649f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5d7c7d673edbd53e4976f12dec87f69d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/267863c12631dd5724aa2bf1022473ac/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7ffdef653ae36f698c08559043c54420/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e5e106e62ed4e90cf772889c7e989c27/AndroidManifest.xml:17:1-31:12
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:16:1-47:12
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:16:1-47:12
+	package
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:18:5-56
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:16:1-47:12
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:16:1-47:12
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:17:5-63
+application
+ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:20:5-45:19
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/Quan/.gradle/caches/transforms-2/files-2.1/f4b2cf9e7dfd7d60d3580f3a1e9cb33c/AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/Quan/.gradle/caches/transforms-2/files-2.1/f4b2cf9e7dfd7d60d3580f3a1e9cb33c/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/b0faf7bda7c2f9f1300204b56a8b242d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/b0faf7bda7c2f9f1300204b56a8b242d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0384a43e561af1a178cc159abc790743/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0384a43e561af1a178cc159abc790743/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7a034d926c3a5a6e460eb2b294c3d8db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7a034d926c3a5a6e460eb2b294c3d8db/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5a35931092e201bd15a1190b611d4485/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5a35931092e201bd15a1190b611d4485/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/2ee40f2b77e607d874c0c363838b6e56/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/2ee40f2b77e607d874c0c363838b6e56/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/ae49cfc2642f68b97ac6b9aebf63c988/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/ae49cfc2642f68b97ac6b9aebf63c988/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0d24bea9a5e904d8560293b065622508/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0d24bea9a5e904d8560293b065622508/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e171a3037bcc3565f6b539a07173649f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e171a3037bcc3565f6b539a07173649f/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5d7c7d673edbd53e4976f12dec87f69d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5d7c7d673edbd53e4976f12dec87f69d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/267863c12631dd5724aa2bf1022473ac/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/267863c12631dd5724aa2bf1022473ac/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7ffdef653ae36f698c08559043c54420/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7ffdef653ae36f698c08559043c54420/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e5e106e62ed4e90cf772889c7e989c27/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e5e106e62ed4e90cf772889c7e989c27/AndroidManifest.xml:25:5-29:19
+	android:screenOrientation
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:26:9-45
+	android:supportsRtl
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:25:9-40
+activity#com.android.example.wordlistsqlsearchable.MainActivity
+ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:27:9-37:20
+	android:screenOrientation
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:28:13-49
+	android:configChanges
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:29:13-48
+	android:name
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:27:19-88
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:30:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:31:17-32:23
+	android:name
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:34:27-74
+activity#com.android.example.wordlistsqlsearchable.EditWordActivity
+ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:38:9-40:60
+	android:screenOrientation
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:39:13-49
+	android:configChanges
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:38:19-92
+activity#com.android.example.wordlistsqlsearchable.SearchActivity
+ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:41:9-43:60
+	android:screenOrientation
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:42:13-49
+	android:configChanges
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:43:13-48
+	android:name
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml:41:19-90
+uses-sdk
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/Quan/.gradle/caches/transforms-2/files-2.1/f4b2cf9e7dfd7d60d3580f3a1e9cb33c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/Quan/.gradle/caches/transforms-2/files-2.1/f4b2cf9e7dfd7d60d3580f3a1e9cb33c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/b0faf7bda7c2f9f1300204b56a8b242d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/b0faf7bda7c2f9f1300204b56a8b242d/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0384a43e561af1a178cc159abc790743/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0384a43e561af1a178cc159abc790743/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7a034d926c3a5a6e460eb2b294c3d8db/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7a034d926c3a5a6e460eb2b294c3d8db/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5a35931092e201bd15a1190b611d4485/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5a35931092e201bd15a1190b611d4485/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/2ee40f2b77e607d874c0c363838b6e56/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/2ee40f2b77e607d874c0c363838b6e56/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/ae49cfc2642f68b97ac6b9aebf63c988/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/ae49cfc2642f68b97ac6b9aebf63c988/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0d24bea9a5e904d8560293b065622508/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0d24bea9a5e904d8560293b065622508/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e171a3037bcc3565f6b539a07173649f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e171a3037bcc3565f6b539a07173649f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5d7c7d673edbd53e4976f12dec87f69d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5d7c7d673edbd53e4976f12dec87f69d/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/267863c12631dd5724aa2bf1022473ac/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/267863c12631dd5724aa2bf1022473ac/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7ffdef653ae36f698c08559043c54420/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7ffdef653ae36f698c08559043c54420/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e5e106e62ed4e90cf772889c7e989c27/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e5e106e62ed4e90cf772889c7e989c27/AndroidManifest.xml:21:5-23:58
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/b0faf7bda7c2f9f1300204b56a8b242d/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Quan/Desktop/android project/ECGtrainer/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/b0faf7bda7c2f9f1300204b56a8b242d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0384a43e561af1a178cc159abc790743/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0384a43e561af1a178cc159abc790743/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7a034d926c3a5a6e460eb2b294c3d8db/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7a034d926c3a5a6e460eb2b294c3d8db/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5a35931092e201bd15a1190b611d4485/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5a35931092e201bd15a1190b611d4485/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/2ee40f2b77e607d874c0c363838b6e56/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/2ee40f2b77e607d874c0c363838b6e56/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/ae49cfc2642f68b97ac6b9aebf63c988/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/ae49cfc2642f68b97ac6b9aebf63c988/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0d24bea9a5e904d8560293b065622508/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/0d24bea9a5e904d8560293b065622508/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e171a3037bcc3565f6b539a07173649f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e171a3037bcc3565f6b539a07173649f/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5d7c7d673edbd53e4976f12dec87f69d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/5d7c7d673edbd53e4976f12dec87f69d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/267863c12631dd5724aa2bf1022473ac/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/267863c12631dd5724aa2bf1022473ac/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7ffdef653ae36f698c08559043c54420/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/7ffdef653ae36f698c08559043c54420/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e5e106e62ed4e90cf772889c7e989c27/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/e5e106e62ed4e90cf772889c7e989c27/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/b0faf7bda7c2f9f1300204b56a8b242d/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:25.4.0] /Users/Quan/.gradle/caches/transforms-2/files-2.1/b0faf7bda7c2f9f1300204b56a8b242d/AndroidManifest.xml:27:13-51
